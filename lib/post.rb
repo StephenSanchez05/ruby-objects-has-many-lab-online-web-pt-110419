@@ -18,7 +18,7 @@ end
   end
   
   def author_name
-    self.author if author 
+    author.name if author 
   end
   
 end
